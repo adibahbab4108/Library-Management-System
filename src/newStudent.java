@@ -34,13 +34,13 @@ public class newStudent extends javax.swing.JFrame {
         setLocation(new java.awt.Point(500, 300));
         setUndecorated(true);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setText("Student ID");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel2.setText("Name");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel3.setText("Course Name");
 
         jComboBox1.setBackground(new java.awt.Color(204, 255, 204));
@@ -55,7 +55,7 @@ public class newStudent extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel5.setText("Program");
 
         jComboBox2.setBackground(new java.awt.Color(204, 255, 204));
@@ -66,7 +66,7 @@ public class newStudent extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/save24px.png"))); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +75,7 @@ public class newStudent extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Segoe UI Variable", 1, 15)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/cross-mark24px.png"))); // NOI18N
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
